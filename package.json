@@ -1,0 +1,12 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A temporary holding for my portfolio documents.",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gavdsc/portfolio.git"
+  },
+  "private": true
+}
