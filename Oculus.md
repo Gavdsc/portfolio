@@ -1,12 +1,14 @@
 # Oculus
 
+![Oculus Light Theme](./images/OculusLight.png)
+
 ## Overview
 
 Oculus is the primary ERP (Enterprise Resource Planning) application offered by Pantheon Automatisering. It serves as the main business 
 management tool for several companies, supporting hundreds of users daily.
 
 The client-side application is developed using a mixture of React, TypeScript, and JavaScript, and is styled with SCSS. It features a 
-configurable user interface capable of rendering tens of thousands of unique custom view definitions, translated from IDL (Interface 
+configurable user interface capable of rendering tens of thousands of unique custom view definitions and workflows, translated from IDL (Interface 
 Definition Language). While the interface is currently modularised using iframes, it is in the process of being refactored to a fully 
 React-based architecture.
 
@@ -14,13 +16,13 @@ Oculus follows a loosely defined MVC (Model-View-Controller) design pattern. The
 legacy net.data, organised into microservices. Business logic is processed and stored using RPG on IBM-i servers, with data being managed 
 in a DB2 database.
 
-All new developments adhere to clean code and SOLID principles, ensuring maintainability, scalability, and reliability of the codebase.
+The software also acts as a low-code interface framework for several customers implementing their own business solutions.
+
+All new developments adhere to clean code principles, ensuring maintainability, scalability, and reliability of the codebase.
 
 ## My Role
 
 ### Ongoing Maintenance
-
--> Pics of sidebar, modals, menus, context menus (web components)
 
 Over the past five years, a significant portion of my role involved the ongoing maintenance of the Oculus ERP software. 
 This entailed addressing bugs, implementing small features, and performing refactors to improve the software's functionality 
@@ -49,6 +51,8 @@ to ensure stability and reliability.
 Worked as one of two developers focused on maintenance of the frontend client, fostering a collaborative environment where knowledge sharing and mutual support were key to our success.
 
 ### Client Refactor (incremental refactoring and micro-frontends)
+
+![Oculus Web Components](./images/OculusMenus.png)
 
 Oculus is a monolithic ERP software built 16 years ago, encompassing a vast amount of legacy technical debt, 
 including outdated JavaScript, HTML, and CSS. The original system was structured using tiered iframes, extensive vanilla 
@@ -115,6 +119,8 @@ continuity of business operations.
 
 ### Multi-factor authentication
 
+![Oculus](./images/OculusLogin.png)
+
 The implementation of multi-factor authentication (MFA) was a critical project designed to enhance the security of the Oculus ERP 
 software. This project involved creating React-based landing pages and integrating them with a Symfony login middleware. 
 The MFA system ensured that user authentication was secure and reliable by leveraging Google Authenticator and session cookies.
@@ -137,6 +143,8 @@ The MFA system ensured that user authentication was secure and reliable by lever
 - Collaborated with team members to integrate the new authentication system with the existing Oculus infrastructure.
 
 ### CSS Refactoring and Theming
+
+![Oculus](./images/OculusModals.png)
 
 Upon joining the team in 2019, I identified a significant need to modernise and modularise the styling of the Oculus ERP software. 
 Initially, the application’s styling consisted of tens of thousands of lines of unstructured CSS. I initiated the process of 
